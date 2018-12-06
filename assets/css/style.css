@@ -65,7 +65,7 @@ h3 {
 }
 
 #logo {
-  float: left;
+  float: none;
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -231,5 +231,12 @@ input[type=submit] {
 
   #logo {
     width: 100%;
+    display: block;
+  }
+
+  .navtest{
+    position: relative;
+    float: none;
+    text-align: center;
   }
 }
